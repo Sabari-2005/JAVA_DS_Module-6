@@ -4,35 +4,13 @@
 To write a java function to evaluate weather the given Matrix A has all odd numbers and Matrix B has all even numbers of the same dimension and find the nature of resultant matrrix.
 
 ## Algorithm
-1. Start the program.
-2.Read the dimensions of both matrices (rows and columns).
-Check whether Matrix A and Matrix B have the same dimensions.
-If not, display “Matrices are not of same dimension” and stop.
-3. Read Matrix A and check each element:
-
-If every element is odd, continue.
-
-If any element is even, mark A as invalid and stop further checking.
-
-5. Read Matrix A and check each element:
-   
-If every element is odd, continue.
-
-If any element is even, mark A as invalid and stop further checking.
-
-5.If both matrices are valid, compute the resultant matrix (e.g., A + B or any operation specified).
-Determine the nature of the resultant matrix:
-
-If all elements are odd, print “Resultant matrix is an Odd Matrix”.
-
-If all elements are even, print “Resultant matrix is an Even Matrix”.
-
-Otherwise, print “Resultant matrix is a Mixed Matrix”.
-
-6.Display the Resultant Matrix.
-
+1.Start the program.
+2.Read the dimensions of the matrices.
+3.Read elements of Matrix A (odd numbers) and Matrix B (even numbers).
+4.Perform matrix addition and store the result in Matrix C.
+5.Check whether all elements in Matrix C are even, odd, or mixed.
+6.Display the resulting matrix and its nature.
 7.Stop the program.
-
 ## Program:
 ```
 /*
