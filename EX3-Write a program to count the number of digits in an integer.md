@@ -4,7 +4,7 @@
 To write a java program to count the number of digits in an integer.
 ## Algorithm
 1. Start the program.
-2. 
+
 2.Read an integer from the user.
 
 3.Define a recursive function countDigits() that counts digits by dividing the number by 10 each time.
